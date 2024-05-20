@@ -104,16 +104,16 @@ function Short({ short, shortContainerRef }) {
           >
             <ion-icon name="play-outline"></ion-icon>
           </div>
-          <div className="foot">
-            <div className="title">{short.title}</div>
-            <div className="user-info">
-              <div>
-                <img src={short.profileUrl} alt="" />
-                <span>{short.username}</span>
-              </div>
-              {!short.isFollowed && <button>Follow</button>}
-            </div>
-          </div>
+          {/*<div className="foot">*/}
+          {/*  <div className="title">{short.title}</div>*/}
+          {/*  <div className="user-info">*/}
+          {/*    <div>*/}
+          {/*      <img src={short.profileUrl} alt="" />*/}
+          {/*      <span>{short.username}</span>*/}
+          {/*    </div>*/}
+          {/*    {!short.isFollowed && <button>Follow</button>}*/}
+          {/*  </div>*/}
+          {/*</div>*/}
         </div>
         {/*<div className="reaction">*/}
         {/*  <div*/}
